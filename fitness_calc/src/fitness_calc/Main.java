@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class Main {
 	public static Main app;
-
+	private ListenersClass listenersClass=new ListenersClass(this);
 	private JFrame main_GUI=new JFrame();
 	private JPanel main_panel= new JPanel();
 	protected JComboBox menu1;
@@ -31,7 +31,7 @@ public class Main {
 	main_GUI.add(main_panel); 
 
 	button_calculate.setBounds(80,280,300,40);
-
+	button_calculate.addActionListener(listenersClass.listenerCalculate);
 	main_panel.add(button_calculate);
 
 	JLabel info2 = new JLabel("Выберите цель");
@@ -83,6 +83,7 @@ public class Main {
 	main_panel.add(output);
 	main_GUI.setVisible(true);
 	main_GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 	}
 	public static void main(String[] args) {
 	app=new Main();
