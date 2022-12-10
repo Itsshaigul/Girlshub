@@ -83,7 +83,6 @@ public class Main {
 	main_panel.add(output);
 	main_GUI.setVisible(true);
 	main_GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
 	}
 	public static void main(String[] args) {
 	app=new Main();
