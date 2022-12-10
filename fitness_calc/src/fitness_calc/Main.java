@@ -1,10 +1,9 @@
 package fitness_calc;
-import java.awt.*;
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 public class Main {
 	public static Main app;
+
 	private JFrame main_GUI=new JFrame();
 	private JPanel main_panel= new JPanel();
 	protected JComboBox menu1;
@@ -32,6 +31,7 @@ public class Main {
 	main_GUI.add(main_panel); 
 
 	button_calculate.setBounds(80,280,300,40);
+
 	main_panel.add(button_calculate);
 
 	JLabel info2 = new JLabel("Выберите цель");
