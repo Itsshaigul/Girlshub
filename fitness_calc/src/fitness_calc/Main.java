@@ -81,6 +81,9 @@ public class Main {
 
 	output.setBounds(80,330,300,80);
 	main_panel.add(output);
+	JLabel image=new JLabel(new ImageIcon("C:\\Users\\Ulyana\\git\\Girlshub\\fitness_calc\\src\\Логотип УГАТУ.jpg"));
+	image.setBounds(150,450,150,100);
+	main_panel.add(image);
 	main_GUI.setVisible(true);
 	main_GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
