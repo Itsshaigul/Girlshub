@@ -86,7 +86,7 @@ public class Main {
 	info10.setBounds(350,510,200,20);
 	main_panel.add(info10);
 	
-	info11.setBounds(350,530,200,20);
+	info11.setBounds(350,531,200,20);
 	main_panel.add(info11);
 
 	input1.setBounds(300,80,200,30);
