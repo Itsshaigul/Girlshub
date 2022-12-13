@@ -1,5 +1,4 @@
 package fitness_calc;
-
 public abstract class Calc {
 	private double nutrientPercentage;
 	private double nutrientCalorie;
