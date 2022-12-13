@@ -15,11 +15,15 @@ public class Main {
 	private JLabel info4 = new JLabel("Выберите свой пол");
 	private JLabel info5 = new JLabel("Выберите уровень физической активности");
 	private JLabel info6 = new JLabel("Введите cвой возраст");
+	private JLabel info7 = new JLabel("Выполнили:");
+	private JLabel info8 = new JLabel("ст. гр. ИВТ-324");
+	private JLabel info9 = new JLabel("Аминева У.Ф. 20130396");
+	private JLabel info10 = new JLabel("Исянгильдина И.Г. 20130413");
+	private JLabel info11 = new JLabel("Шаймарданова А.Р. 20130416");
 	protected JTextArea output= new JTextArea();
 	protected JTextField input1 = new JTextField("", 20);
 	protected JTextField input2 = new JTextField("", 20);
 	protected JTextField input3 = new JTextField("", 20);
-
 
 	public Main() {
 	output.setEditable(false);
@@ -69,6 +73,21 @@ public class Main {
 
 	info5.setBounds(20,240,300,30);
 	main_panel.add(info5);
+	
+	info7.setBounds(350,450,200,20);
+	main_panel.add(info7);
+	
+	info8.setBounds(350,470,200,20);
+	main_panel.add(info8);
+	
+	info9.setBounds(350,490,200,20);
+	main_panel.add(info9);
+	
+	info10.setBounds(350,510,200,20);
+	main_panel.add(info10);
+	
+	info11.setBounds(350,531,200,20);
+	main_panel.add(info11);
 
 	input1.setBounds(300,80,200,30);
 	main_panel.add(input1);
